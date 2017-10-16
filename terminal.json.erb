@@ -1,0 +1,282 @@
+  {
+    "description": "⌘ + ← | Move cursor to line begin",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_unless"
+          }
+        ],
+        "from": {
+          "key_code": "left_arrow",
+          "modifiers": {
+            "mandatory": [
+              "command"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "a",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  },
+  {
+    "description": "⌘ + → | Move cursor to line end",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_if"
+          }
+        ],
+        "from": {
+          "key_code": "right_arrow",
+          "modifiers": {
+            "mandatory": [
+              "command"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "e",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  },
+  {
+    "description": "⌥ + ← | Move cursor one word behind",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_if"
+          }
+        ],
+        "from": {
+          "key_code": "left_arrow",
+          "modifiers": {
+            "mandatory": [
+              "option"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "escape"
+          },
+          {
+            "key_code": "b"
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  },
+  {
+    "description": "⌥ + → | Move cursor one word ahead",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_if"
+          }
+        ],
+        "from": {
+          "key_code": "right_arrow",
+          "modifiers": {
+            "mandatory": [
+              "option"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "escape"
+          },
+          {
+            "key_code": "f"
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  },
+  {
+    "description": "⌥ + ⌫ | Delete one word",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_if"
+          }
+        ],
+        "from": {
+          "key_code": "delete_or_backspace",
+          "modifiers": {
+            "mandatory": [
+              "option"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "w",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  },
+  {
+    "description": "⌥ + ⌦ | Delete one word ahead",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_if"
+          }
+        ],
+        "from": {
+          "key_code": "delete_or_backspace",
+          "modifiers": {
+            "mandatory": [
+              "option",
+              "fn"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "escape"
+          },
+          {
+            "key_code": "d"
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  },
+  {
+    "description": "⌘ + ⌫ | Delete to line begin",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_if"
+          }
+        ],
+        "from": {
+          "key_code": "delete_or_backspace",
+          "modifiers": {
+            "mandatory": [
+              "command"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "u",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  },
+  {
+    "description": "⌘ + ⌦ | Delete to line end",
+    "manipulators": [
+      {
+        "conditions": [
+          {
+            "bundle_identifiers": [
+              "^com\\.apple\\.Terminal$",
+              "^com\\.googlecode\\.iterm2$",
+              "^co\\.zeit\\.hyperterm$",
+              "^co\\.zeit\\.hyper$"
+            ],
+            "type": "frontmost_application_if"
+          }
+        ],
+        "from": {
+          "key_code": "delete_or_backspace",
+          "modifiers": {
+            "mandatory": [
+              "command",
+              "fn"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "k",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        ],
+        "type": "basic"
+      }
+    ]
+  }

@@ -1,0 +1,14 @@
+#!/usr/bin/osascript
+on run theArgs
+	set theURL to item 1 of theArgs
+	tell application "Google Chrome" to tell front window
+		repeat with theIndex from 1 to count of tabs
+			set theTab to tab theIndex
+			if theTab's URL starts with theURL then
+				set the active tab index to theIndex
+				activate
+				exit repeat
+			end if
+		end repeat
+	end tell
+end run
