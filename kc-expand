@@ -1,4 +1,6 @@
 #!/usr/bin/env perl -p
 
 # Substitue private {{URL}}s with their keychain env values
-s/ \{\{ (.*?) }} / qx(kc-env get $1) =~ s#\n##r /gex
+s/ \{\{ (.*?) }} / qx(kc-env get $1) =~ s#\n##r /gex;
+
+s/\$HOME\b/$ENV{HOME}/g;

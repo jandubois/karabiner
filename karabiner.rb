@@ -127,6 +127,7 @@ __END__
                         "manipulators": <%= launchers() %>
                     },
                     <%= ERB.new(File.read("hyper.json.erb")).result %>,
+                    <%= ERB.new(File.read("omnifocus.json.erb")).result %>,
                     <%= ERB.new(File.read("terminal.json.erb")).result %>
                 ]
             },
