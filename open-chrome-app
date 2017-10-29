@@ -7,8 +7,10 @@ on run theArgs
 			if theTab's URL starts with theURL then
 				set the active tab index to theIndex
 				activate
-				exit repeat
+				return
 			end if
 		end repeat
+		open location theURL
+		activate
 	end tell
 end run
