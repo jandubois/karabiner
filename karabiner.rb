@@ -49,6 +49,7 @@ launcher("f", "OmniFocus.app")
 launcher("f", "Finder.app")
 
 launcher("g", "/usr/local/bin/open-chrome-app https://mail.google.com")
+launcher("g", "/usr/local/bin/open-chrome-app {{GOTOMEETING_URL}}")
 
 launcher("i", "iThoughtsX.app")
 launcher("i", "iTunes.app")

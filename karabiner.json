@@ -212,6 +212,23 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "g",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option",
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "/usr/local/bin/open-chrome-app {{GOTOMEETING_URL}}"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
