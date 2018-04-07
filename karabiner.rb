@@ -32,8 +32,8 @@ end
 
 launcher("1", "1Password 6.app")
 
-launcher("a", "Contacts.app") # addressbook
 launcher("a", "App Store.app")
+launcher("a", "Contacts.app") # addressbook
 
 launcher("b", "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}")
 
@@ -41,15 +41,17 @@ launcher("c", "Google Chrome.app")
 launcher("c", "Calendar.app")
 
 launcher("d", "DEVONthink Pro.app")
-launcher("d", "Script Debugger.app")
+launcher("d", "Day One.app")
 
 launcher("e", "/Applications/Emacs.app")
 
-launcher("f", "OmniFocus.app")
+launcher("f", "/usr/local/bin/open-chrome-app https://feedly.com")
 launcher("f", "Finder.app")
 
 launcher("g", "/usr/local/bin/open-chrome-app https://mail.google.com")
 launcher("g", "/usr/local/bin/open-chrome-app {{GOTOMEETING_URL}}")
+
+launcher("h", "HoudahSpot.app")
 
 launcher("i", "iThoughtsX.app")
 launcher("i", "iTunes.app")
@@ -61,21 +63,23 @@ launcher("m", "Messages.app")
 
 launcher("n", "Notes.app")
 
+launcher("o", "OmniFocus.app")
+
 launcher("p", "System Preferences.app")
 launcher("p", "Photos.app")
 
 launcher("q", "Quiver.app")
 
 launcher("r", "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}")
-launcher("r", "/usr/local/bin/open-chrome-app https://feedly.com") # rss
 
-launcher("s", "iTerm.app") # shell
+launcher("s", "Script Debugger.app")
 launcher("s", "Safari.app")
 
+launcher("t", "iTerm.app") # terminal
 launcher("t", "/usr/local/bin/open-chrome-app https://trello.com")
 
-launcher("v", "VMware Fusion.app")
 launcher("v", "VirtualBox.app")
+launcher("v", "VMware Fusion.app")
 
 launcher("y", "Yep.app")
 
