@@ -626,7 +626,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer 1"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer 1"
                                     }
                                 ],
                                 "type": "basic"
@@ -651,7 +651,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due 1"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due 1"
                                     }
                                 ],
                                 "type": "basic"
@@ -676,7 +676,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer 2"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer 2"
                                     }
                                 ],
                                 "type": "basic"
@@ -701,7 +701,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due 2"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due 2"
                                     }
                                 ],
                                 "type": "basic"
@@ -726,7 +726,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer 3"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer 3"
                                     }
                                 ],
                                 "type": "basic"
@@ -751,7 +751,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due 3"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due 3"
                                     }
                                 ],
                                 "type": "basic"
@@ -776,7 +776,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer 4"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer 4"
                                     }
                                 ],
                                 "type": "basic"
@@ -801,7 +801,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due 4"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due 4"
                                     }
                                 ],
                                 "type": "basic"
@@ -826,7 +826,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer 5"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer 5"
                                     }
                                 ],
                                 "type": "basic"
@@ -851,7 +851,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due 5"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due 5"
                                     }
                                 ],
                                 "type": "basic"
@@ -876,7 +876,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer 6"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer 6"
                                     }
                                 ],
                                 "type": "basic"
@@ -901,7 +901,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due 6"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due 6"
                                     }
                                 ],
                                 "type": "basic"
@@ -926,7 +926,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer 7"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer 7"
                                     }
                                 ],
                                 "type": "basic"
@@ -951,7 +951,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due 7"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due 7"
                                     }
                                 ],
                                 "type": "basic"
@@ -976,7 +976,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer t"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer t"
                                     }
                                 ],
                                 "type": "basic"
@@ -1001,7 +1001,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due t"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due t"
                                     }
                                 ],
                                 "type": "basic"
@@ -1026,7 +1026,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript defer c"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript defer c"
                                     }
                                 ],
                                 "type": "basic"
@@ -1051,7 +1051,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "$HOME/Dropbox/omnifocus/set-date.applescript due c"
+                                        "shell_command": "$HOME/Dropbox/git/omnifocus/set-date.applescript due c"
                                     }
                                 ],
                                 "type": "basic"
