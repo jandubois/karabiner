@@ -5,12 +5,12 @@
   ["defer", "due"].each do |type|
     # The bundle id of the app store version has a ".MacAppStore" suffix
     conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus2" ], type: "frontmost_application_if" } ]
-    from = { key_code: weekday, modifiers: { mandatory: [ "right_shift" ] } }
+    from = { key_code: weekday, modifiers: { mandatory: [ "shift" ] } }
     to = [ { shell_command:  "$HOME/Dropbox/git/omnifocus/set-date.applescript #{type} #{weekday}" } ]
     if type == "due"
       from[:modifiers][:mandatory] << "right_option"
     else
-      from[:modifiers][:mandatory] << "right_control"
+      from[:modifiers][:mandatory] << "control"
     end
     @omnifocus << { conditions: conditions, from: from, to: to, type: "basic" }
   end

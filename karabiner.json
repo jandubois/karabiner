@@ -619,8 +619,8 @@
                                     "key_code": "1",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -644,7 +644,7 @@
                                     "key_code": "1",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -669,8 +669,8 @@
                                     "key_code": "2",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -694,7 +694,7 @@
                                     "key_code": "2",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -719,8 +719,8 @@
                                     "key_code": "3",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -744,7 +744,7 @@
                                     "key_code": "3",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -769,8 +769,8 @@
                                     "key_code": "4",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -794,7 +794,7 @@
                                     "key_code": "4",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -819,8 +819,8 @@
                                     "key_code": "5",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -844,7 +844,7 @@
                                     "key_code": "5",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -869,8 +869,8 @@
                                     "key_code": "6",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -894,7 +894,7 @@
                                     "key_code": "6",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -919,8 +919,8 @@
                                     "key_code": "7",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -944,7 +944,7 @@
                                     "key_code": "7",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -969,8 +969,8 @@
                                     "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -994,7 +994,7 @@
                                     "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
@@ -1019,8 +1019,8 @@
                                     "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
-                                            "right_control"
+                                            "shift",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -1044,7 +1044,7 @@
                                     "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_shift",
+                                            "shift",
                                             "right_option"
                                         ]
                                     }
