@@ -84,7 +84,12 @@ launcher("t", "/usr/local/bin/open-chrome-app https://trello.com")
 launcher("v", "VirtualBox.app")
 launcher("v", "VMware Fusion.app")
 
+launcher("x", "/usr/local/bin/open-chrome-app https://www.netflix.com/browse")
+launcher("x", "/usr/local/bin/open-chrome-app https://app.plex.tv/desktop")
+
 launcher("y", "Yep.app")
+
+launcher("z", "open vnc://zombo")
 
 def mapping(from, to)
   { from: { key_code: from }, to: { key_code: to } }
