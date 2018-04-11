@@ -56,6 +56,8 @@ launcher("h", "HoudahSpot.app")
 launcher("i", "iThoughtsX.app")
 launcher("i", "iTunes.app")
 
+launcher("k", "Keyboard Maestro.app")
+
 launcher("l", "OmniOutliner.app")
 
 launcher("m", "Mail.app")
