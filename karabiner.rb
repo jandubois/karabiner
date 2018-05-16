@@ -36,6 +36,7 @@ launcher("a", "App Store.app")
 launcher("a", "Contacts.app") # addressbook
 
 launcher("b", "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}")
+launcher("b", "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}")
 
 launcher("c", "Google Chrome.app")
 launcher("c", "Calendar.app")
@@ -74,9 +75,10 @@ launcher("p", "Photos.app")
 launcher("q", "Quiver.app")
 
 launcher("r", "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}")
+launcher("r", "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}")
 
 launcher("s", "Script Debugger.app")
-launcher("s", "Safari.app")
+launcher("s", "/usr/local/bin/open-chrome-app {{SLACK_URL}}")
 
 launcher("t", "iTerm.app") # terminal
 launcher("t", "/usr/local/bin/open-chrome-app https://trello.com")

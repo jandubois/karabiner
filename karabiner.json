@@ -81,6 +81,23 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "b",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option",
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
@@ -457,6 +474,23 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "r",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option",
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
@@ -483,7 +517,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Safari.app'"
+                                        "shell_command": "/usr/local/bin/open-chrome-app {{SLACK_URL}}"
                                     }
                                 ],
                                 "type": "basic"
