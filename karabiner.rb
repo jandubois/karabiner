@@ -74,7 +74,7 @@ launcher("p", "Photos.app")
 
 launcher("q", "Quiver.app")
 
-launcher("r", "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}")
+launcher("r", "OmniGraffle.app")
 launcher("r", "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}")
 
 launcher("s", "Script Debugger.app")
