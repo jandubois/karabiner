@@ -4,7 +4,7 @@
 [*"1".."7", "y", "t", "c"].each do |weekday|
   ["defer", "due"].each do |type|
     # The bundle id of the app store version has a ".MacAppStore" suffix
-    conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus2" ], type: "frontmost_application_if" } ]
+    conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus3" ], type: "frontmost_application_if" } ]
     from = { key_code: weekday, modifiers: { mandatory: [ "shift" ] } }
     to = [ { shell_command:  "$HOME/Dropbox/git/omnifocus/set-date.applescript #{type} #{weekday}" } ]
     if type == "due"
