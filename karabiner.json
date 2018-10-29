@@ -468,7 +468,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Photos.app'"
+                                        "shell_command": "/usr/local/bin/open-chrome-app {{PIVOTALTRACKER_URL}}"
                                     }
                                 ],
                                 "type": "basic"

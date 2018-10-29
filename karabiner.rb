@@ -73,7 +73,7 @@ launcher("n", "Notes.app")
 launcher("o", "OmniFocus.app")
 
 launcher("p", "System Preferences.app")
-launcher("p", "Photos.app")
+launcher("p", "/usr/local/bin/open-chrome-app {{PIVOTALTRACKER_URL}}")
 
 launcher("q", "Quiver.app")
 
