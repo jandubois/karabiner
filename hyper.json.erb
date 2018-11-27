@@ -1,6 +1,56 @@
 {
   "description": "⇪ | Hyper key. Escape if pressed alone.",
   "manipulators": [
+    <%
+     # Define a virtual caps_lock "condition" because "caps_lock" doesn't work correctly
+     # as an mandatory modifier key: the modifier will not be removed from the "to" value.
+    %>
+    {
+      "conditions": [
+        {
+          "bundle_identifiers": [
+            "^org\\.gnu\\.Emacs$"
+          ],
+          "type": "frontmost_application_if"
+        }
+      ],
+      "type": "basic",
+      "from": {
+        "key_code": "caps_lock",
+        "modifiers": {
+          "optional": [
+            "any"
+          ]
+        }
+      },
+      "to": [
+        {
+          "set_variable": {
+            "name": "my_caps_lock",
+            "value": 1
+          }
+        }
+      ],
+      "to_after_key_up": [
+        {
+          "set_variable": {
+            "name": "my_caps_lock",
+            "value": 0
+          }
+        }
+      ]
+    },
+
+    <%
+      # The digits 0..9 are used for window resizing and should always be mapped to Hyper-#, even in Emacs
+      [*"0".."9"].each do |digit|
+        from = { key_code: digit, modifiers: { optional: [ "any" ] } }
+        to = [ { key_code: digit, modifiers: [ "left_shift", "left_control", "left_option", "left_command" ] } ]
+        conditions = [ { type: "variable_if", name: "my_caps_lock", value: 1 } ]
+    %>
+      <%= JSON.generate({ conditions: conditions, from: from, to: to, type: "basic" }) %>,
+    <% end %>
+
     {
       "conditions": [
         {
