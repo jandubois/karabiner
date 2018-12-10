@@ -1,7 +1,7 @@
 <%
 @omnifocus = []
 
-[*"1".."7", "y", "t", "c"].each do |weekday|
+[*"1".."7", "y", "t", "c", "l"].each do |weekday|
   ["defer", "due"].each do |type|
     # The bundle id of the app store version has a ".MacAppStore" suffix
     conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus3" ], type: "frontmost_application_if" } ]
