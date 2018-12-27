@@ -1,10 +1,12 @@
 <%
 @omnifocus = []
 
+# The bundle id of the app store version has a ".MacAppStore" suffix
+conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus3" ], type: "frontmost_application_if" } ]
+
+# Set Defer/Due dates: Mon..Sun, Today, Tomorrow, Clear, Clear&Flag
 [*"1".."7", "y", "t", "c", "l"].each do |weekday|
   ["defer", "due"].each do |type|
-    # The bundle id of the app store version has a ".MacAppStore" suffix
-    conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus3" ], type: "frontmost_application_if" } ]
     from = { key_code: weekday, modifiers: { mandatory: [ "shift" ] } }
     to = [ { shell_command:  "$HOME/Dropbox/git/omnifocus/set-date.applescript #{type} #{weekday}" } ]
     if type == "due"
@@ -14,6 +16,13 @@
     end
     @omnifocus << { conditions: conditions, from: from, to: to, type: "basic" }
   end
+end
+
+# Update Repeating Task: Defer, Final, Skip
+["d", "f", "s"].each do |action|
+  from = { key_code: action, modifiers: { mandatory: [ "shift", "right_option" ] } }
+  to = [ { shell_command:  "$HOME/Dropbox/git/omnifocus/update-repeating-task.applescript #{action}" } ]
+  @omnifocus << { conditions: conditions, from: from, to: to, type: "basic" }
 end
 
 %>
