@@ -189,7 +189,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app https://feedly.com"
+                                        "shell_command": "open -a 'Finder.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -206,7 +206,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Finder.app'"
+                                        "shell_command": "/usr/local/bin/open-chrome-app https://feedly.com"
                                     }
                                 ],
                                 "type": "basic"

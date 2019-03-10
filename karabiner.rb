@@ -46,8 +46,8 @@ launcher("d", "Day One.app")
 
 launcher("e", "/Applications/Emacs.app")
 
-launcher("f", "/usr/local/bin/open-chrome-app https://feedly.com")
 launcher("f", "Finder.app")
+launcher("f", "/usr/local/bin/open-chrome-app https://feedly.com")
 
 launcher("g", "/usr/local/bin/open-chrome-app https://mail.google.com")
 launcher("g", "/usr/local/bin/open-chrome-app {{GOTOMEETING_URL}}")
