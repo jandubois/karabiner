@@ -95,6 +95,7 @@ launcher("x", "/usr/local/bin/open-chrome-app https://app.plex.tv/desktop")
 launcher("y", "Yep.app")
 
 launcher("z", "open vnc://zombo")
+launcher("z", "open vnc://zulu")
 
 def mapping(from, to)
   { from: { key_code: from }, to: { key_code: to } }
