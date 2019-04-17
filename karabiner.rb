@@ -58,7 +58,7 @@ launcher("h", "open /Library/PreferencePanes/Hazel.prefPane")
 launcher("i", "iThoughtsX.app")
 launcher("i", "iTunes.app")
 
-launcher("j", "/usr/local/bin/open-chrome-app {{JIRA_URL}}")
+launcher("j", "/usr/local/bin/open-chrome-app {{JENKINS_URL}}")
 launcher("j", "/usr/local/bin/open-chrome-app {{JIRA_URL}}")
 
 launcher("k", "Keyboard Maestro.app")

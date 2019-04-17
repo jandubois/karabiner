@@ -321,7 +321,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{JIRA_URL}}"
+                                        "shell_command": "/usr/local/bin/open-chrome-app {{JENKINS_URL}}"
                                     }
                                 ],
                                 "type": "basic"
