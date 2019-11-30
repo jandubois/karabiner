@@ -140,7 +140,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'DEVONthink Pro.app'"
+                                        "shell_command": "open -a 'DEVONthink 3.app'"
                                     }
                                 ],
                                 "type": "basic"

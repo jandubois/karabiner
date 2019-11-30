@@ -41,7 +41,7 @@ launcher("b", "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}")
 launcher("c", "Google Chrome.app")
 launcher("c", "Calendar.app")
 
-launcher("d", "DEVONthink Pro.app")
+launcher("d", "DEVONthink 3.app")
 launcher("d", "Day One.app")
 
 launcher("e", "/Applications/Emacs.app")
