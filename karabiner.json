@@ -25,7 +25,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a '1Password 6.app'"
+                                        "shell_command": "open -a '1Password 7.app'"
                                     }
                                 ],
                                 "type": "basic"

@@ -30,7 +30,7 @@ def launcher(key_code, shell_command)
   @launchers << { from: from, to: to, type: "basic" }
 end
 
-launcher("1", "1Password 6.app")
+launcher("1", "1Password 7.app")
 
 launcher("a", "App Store.app")
 launcher("a", "Contacts.app") # addressbook
