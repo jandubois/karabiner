@@ -50,7 +50,7 @@ on setDefaultBrowser()
 				tell me to set theBrowser to the name of the application theBrowser
 			else
 				# Convert "com.google.chrome" to "Google Chrome"
-				tell me to set theBrowser to the name of application id theBrowser
+				tell me to set theBrowser to the name of the application id theBrowser
 			end if
 		end tell
 	end if
@@ -61,43 +61,40 @@ on defaultBrowser()
 	return theBrowser
 end defaultBrowser
 
-on tabTitle()
+on tabInfo()
 	setDefaultBrowser()
 	if theBrowser is "Google Chrome" then
 		tell application "Google Chrome" to tell the front window's active tab
-			return the title
+			set theTabInfo to {theTitle:title, theURL:URL}
+			return theTabInfo
 		end tell
 	end if
 	if theBrowser is "Safari" then
 		tell application "Safari" to tell the front window's current tab
-			return the name
+			set theTabInfo to {theTitle:name, theURL:URL}
+			return theTabInfo
 		end tell
 	end if
+end tabInfo
+
+on tabTitle()
+	return theTitle of the tabInfo()
 end tabTitle
 
 on tabURL()
-	setDefaultBrowser()
-	if theBrowser is "Google Chrome" then
-		tell application "Google Chrome" to tell the front window's active tab
-			return the URL
-		end tell
-	end if
-	if theBrowser is "Safari" then
-		tell application "Safari" to tell the front window's current tab
-			return the URL
-		end tell
-	end if
+	return theURL of the tabInfo()
 end tabURL
 
 on tabMarkdown()
-	return "[" & tabTitle() & "](" & tabURL() & ")"
+	set theTabInfo to the tabInfo()
+	return "[" & theTitle of theTabInfo & "](" & theURL of theTabInfo & ")"
 end tabMarkdown
 
 on openURL(theURL)
 	setDefaultBrowser()
 	if theBrowser is "Google Chrome" then
 		tell application "Google Chrome" to tell the front window
-			repeat with theIndex from 1 to count of the tabs
+			repeat with theIndex from 1 to the count of the tabs
 				set theTab to tab theIndex
 				if theTab's URL starts with theURL then
 					set the active tab index to theIndex
