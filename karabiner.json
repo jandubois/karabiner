@@ -157,7 +157,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Day One.app'"
+                                        "shell_command": "open -a 'Dash.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -436,6 +436,23 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a 'OmniFocus.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option",
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Day One.app'"
                                     }
                                 ],
                                 "type": "basic"

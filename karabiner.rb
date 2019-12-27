@@ -42,7 +42,7 @@ launcher("c", "Google Chrome.app")
 launcher("c", "Calendar.app")
 
 launcher("d", "DEVONthink 3.app")
-launcher("d", "Day One.app")
+launcher("d", "Dash.app")
 
 launcher("e", "/Applications/Emacs.app")
 
@@ -71,6 +71,7 @@ launcher("m", "Messages.app")
 launcher("n", "Notes.app")
 
 launcher("o", "OmniFocus.app")
+launcher("o", "Day One.app")
 
 launcher("p", "System Preferences.app")
 launcher("p", "/usr/local/bin/open-web-app {{PIVOTALTRACKER_URL}}")
