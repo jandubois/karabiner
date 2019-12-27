@@ -74,7 +74,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}"
+                                        "shell_command": "open -a 'Safari.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -91,7 +91,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}"
+                                        "shell_command": "/usr/local/bin/open-web-app {{BLUEJEANS_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -206,7 +206,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app https://feedly.com"
+                                        "shell_command": "/usr/local/bin/open-web-app https://feedly.com"
                                     }
                                 ],
                                 "type": "basic"
@@ -222,7 +222,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app https://mail.google.com"
+                                        "shell_command": "/usr/local/bin/open-web-app https://mail.google.com"
                                     }
                                 ],
                                 "type": "basic"
@@ -239,7 +239,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{GOTOMEETING_URL}}"
+                                        "shell_command": "/usr/local/bin/open-web-app {{GOTOMEETING_URL}} 'Google Chrome'"
                                     }
                                 ],
                                 "type": "basic"
@@ -321,7 +321,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{JENKINS_URL}}"
+                                        "shell_command": "/usr/local/bin/open-web-app {{JENKINS_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -338,7 +338,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{JIRA_URL}}"
+                                        "shell_command": "/usr/local/bin/open-web-app {{JIRA_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -468,7 +468,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{PIVOTALTRACKER_URL}}"
+                                        "shell_command": "/usr/local/bin/open-web-app {{PIVOTALTRACKER_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -517,7 +517,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}"
+                                        "shell_command": "/usr/local/bin/open-web-app {{ROCKETCHAT_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -550,7 +550,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app {{SLACK_URL}}"
+                                        "shell_command": "/usr/local/bin/open-web-app {{SLACK_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -583,7 +583,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app https://trello.com"
+                                        "shell_command": "/usr/local/bin/open-web-app https://trello.com"
                                     }
                                 ],
                                 "type": "basic"
@@ -632,7 +632,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app https://www.netflix.com/browse"
+                                        "shell_command": "/usr/local/bin/open-web-app https://www.netflix.com/browse"
                                     }
                                 ],
                                 "type": "basic"
@@ -649,7 +649,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-chrome-app https://app.plex.tv/desktop"
+                                        "shell_command": "/usr/local/bin/open-web-app https://app.plex.tv/desktop"
                                     }
                                 ],
                                 "type": "basic"

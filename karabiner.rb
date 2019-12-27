@@ -35,8 +35,8 @@ launcher("1", "1Password 7.app")
 launcher("a", "App Store.app")
 launcher("a", "Contacts.app") # addressbook
 
-launcher("b", "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}")
-launcher("b", "/usr/local/bin/open-chrome-app {{BLUEJEANS_URL}}")
+launcher("b", "Safari.app") # browser
+launcher("b", "/usr/local/bin/open-web-app {{BLUEJEANS_URL}}")
 
 launcher("c", "Google Chrome.app")
 launcher("c", "Calendar.app")
@@ -47,10 +47,10 @@ launcher("d", "Day One.app")
 launcher("e", "/Applications/Emacs.app")
 
 launcher("f", "Finder.app")
-launcher("f", "/usr/local/bin/open-chrome-app https://feedly.com")
+launcher("f", "/usr/local/bin/open-web-app https://feedly.com")
 
-launcher("g", "/usr/local/bin/open-chrome-app https://mail.google.com")
-launcher("g", "/usr/local/bin/open-chrome-app {{GOTOMEETING_URL}}")
+launcher("g", "/usr/local/bin/open-web-app https://mail.google.com")
+launcher("g", "/usr/local/bin/open-web-app {{GOTOMEETING_URL}} 'Google Chrome'")
 
 launcher("h", "HoudahSpot.app")
 launcher("h", "open /Library/PreferencePanes/Hazel.prefPane")
@@ -58,8 +58,8 @@ launcher("h", "open /Library/PreferencePanes/Hazel.prefPane")
 launcher("i", "iThoughtsX.app")
 launcher("i", "iTunes.app")
 
-launcher("j", "/usr/local/bin/open-chrome-app {{JENKINS_URL}}")
-launcher("j", "/usr/local/bin/open-chrome-app {{JIRA_URL}}")
+launcher("j", "/usr/local/bin/open-web-app {{JENKINS_URL}}")
+launcher("j", "/usr/local/bin/open-web-app {{JIRA_URL}}")
 
 launcher("k", "Keyboard Maestro.app")
 
@@ -73,24 +73,24 @@ launcher("n", "Notes.app")
 launcher("o", "OmniFocus.app")
 
 launcher("p", "System Preferences.app")
-launcher("p", "/usr/local/bin/open-chrome-app {{PIVOTALTRACKER_URL}}")
+launcher("p", "/usr/local/bin/open-web-app {{PIVOTALTRACKER_URL}}")
 
 launcher("q", "Quiver.app")
 
 launcher("r", "OmniGraffle.app")
-launcher("r", "/usr/local/bin/open-chrome-app {{ROCKETCHAT_URL}}")
+launcher("r", "/usr/local/bin/open-web-app {{ROCKETCHAT_URL}}")
 
 launcher("s", "Script Debugger.app")
-launcher("s", "/usr/local/bin/open-chrome-app {{SLACK_URL}}")
+launcher("s", "/usr/local/bin/open-web-app {{SLACK_URL}}")
 
 launcher("t", "iTerm.app") # terminal
-launcher("t", "/usr/local/bin/open-chrome-app https://trello.com")
+launcher("t", "/usr/local/bin/open-web-app https://trello.com")
 
 launcher("v", "VirtualBox.app")
 launcher("v", "VMware Fusion.app")
 
-launcher("x", "/usr/local/bin/open-chrome-app https://www.netflix.com/browse")
-launcher("x", "/usr/local/bin/open-chrome-app https://app.plex.tv/desktop")
+launcher("x", "/usr/local/bin/open-web-app https://www.netflix.com/browse")
+launcher("x", "/usr/local/bin/open-web-app https://app.plex.tv/desktop")
 
 launcher("y", "Yep.app")
 
