@@ -66,15 +66,15 @@ on tabInfo()
 	if theBrowser is "Google Chrome" then
 		tell application "Google Chrome" to tell the front window's active tab
 			set theTabInfo to {theTitle:title, theURL:URL}
-			return theTabInfo
 		end tell
 	end if
 	if theBrowser is "Safari" then
 		tell application "Safari" to tell the front window's current tab
 			set theTabInfo to {theTitle:name, theURL:URL}
-			return theTabInfo
 		end tell
 	end if
+	if theTitle of theTabInfo is "" then set theTitle of theTabInfo to theURL of theTabInfo
+	return theTabInfo
 end tabInfo
 
 on tabTitle()
