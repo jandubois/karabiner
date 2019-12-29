@@ -56,7 +56,6 @@ launcher("h", "HoudahSpot.app")
 launcher("h", "open /Library/PreferencePanes/Hazel.prefPane")
 
 launcher("i", "iThoughtsX.app")
-launcher("i", "iTunes.app")
 
 launcher("j", "/usr/local/bin/open-web-app {{JENKINS_URL}}")
 launcher("j", "/usr/local/bin/open-web-app {{JIRA_URL}}")
@@ -87,6 +86,8 @@ launcher("s", "/usr/local/bin/open-web-app {{SLACK_URL}}")
 launcher("t", "iTerm.app") # terminal
 launcher("t", "/usr/local/bin/open-web-app https://trello.com")
 
+launcher("u", "Music.app")
+
 launcher("v", "VirtualBox.app")
 launcher("v", "VMware Fusion.app")
 
@@ -94,6 +95,7 @@ launcher("x", "/usr/local/bin/open-web-app https://www.netflix.com/browse")
 launcher("x", "/usr/local/bin/open-web-app https://app.plex.tv/desktop")
 
 launcher("y", "Yep.app")
+launcher("y", "/usr/local/bin/open-web-app https://www.youtube.com")
 
 launcher("z", "open vnc://zombo")
 launcher("z", "open vnc://zulu")
