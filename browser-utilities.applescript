@@ -116,3 +116,12 @@ on openURL(theURL)
 	end if
 	do shell script "open -a " & the quoted form of theBrowser & " " & the quoted form of theURL
 end openURL
+
+on setURL(theURL)
+	setDefaultBrowser()
+	if theBrowser is "Google Chrome" then
+		tell application "Google Chrome" to set the URL of the front window's active tab to theURL
+	else if theBrowser is "Safari" then
+		tell application "Safari" to set the URL of the front window's current tab to theURL
+	end if
+end setURL
