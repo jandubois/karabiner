@@ -20,21 +20,31 @@ karabiner.json: karabiner.rb *.json.erb
 open-web-app-install:
 	cp open-web-app.applescript /usr/local/bin/open-web-app
 
-SCRIPT=${HOME}/Library/Script\ Libraries/Browser\ Utilities.scpt
+BROWSER_UTILS=${HOME}/Library/Script\ Libraries/Browser\ Utilities.scpt
+HYPERLINK_UTILS=${HOME}/Library/Script\ Libraries/Hyperlink\ Utilities.scpt
 
 browser-utils-install: open-web-app-install
 	mkdir -p ${HOME}/Library/Script\ Libraries
-	osacompile -o ${SCRIPT} browser-utilities.applescript
+	osacompile -o ${BROWSER_UTILS} browser-utilities.applescript
+
+hyperlink-utils-install:
+	mkdir -p ${HOME}/Library/Script\ Libraries
+	osacompile -o ${HYPERLINK_UTILS} hyperlink-utilities.applescript
 
 # Temp file is needed because osacompile cannot read from /dev/fd/nn so `<(perl ...)` doesn't work
 TEMFPILE=/tmp/browser-utils-hardcoded
 browser-utils-install-hardcoded: open-web-app-install
 	mkdir -p ${HOME}/Library/Script\ Libraries
 	perl -pe 's/# // if s|BROWSER|substr(qx(./$$ARGV),0,-1)|e' browser-utilities.applescript > ${TEMFPILE}
-	osacompile -o ${SCRIPT} ${TEMFPILE}
+	osacompile -o ${BROWSER_UTILS} ${TEMFPILE}
 	rm ${TEMFPILE}
 
 browser-utils-diff:
 	# The decompiled script is missing the hashbang line, but appends an additional newline
-	colordiff -u <(osadecompile ${SCRIPT}) \
+	colordiff -u <(osadecompile ${BROWSER_UTILS}) \
              <(tail -n +2 browser-utilities.applescript; echo)
+
+hyperlink-utils-diff:
+	# The decompiled script is missing the hashbang line, but appends an additional newline
+	colordiff -u <(osadecompile ${HYPERLINK_UTILS}) \
+             <(tail -n +2 hyperlink-utilities.applescript; echo)
