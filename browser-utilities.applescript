@@ -87,7 +87,7 @@ end tabURL
 
 on tabMarkdown()
 	set theTabInfo to the tabInfo()
-	return "[" & theTitle of theTabInfo & "](" & theURL of theTabInfo & ")"
+	return markdownLink(theTitle of theTabInfo, theURL of theTabInfo)
 end tabMarkdown
 
 on openURL(theURL)
@@ -125,3 +125,30 @@ on setURL(theURL)
 		tell application "Safari" to set the URL of the front window's current tab to theURL
 	end if
 end setURL
+
+on markdownLink(theTitle, theURL)
+	return "[" & theTitle & "](" & theURL & ")"
+end markdownLink
+
+on setClipboardToHyperlink(theTitle, theURL)
+	if theURL is "" then
+		set the clipboard to theTitle
+	else
+		set theHTML to quoted form of ("<font face=\"Helvetica Neue\"><a href=\"" & theURL & "\">" & theTitle & "</a></font>")
+		do shell script "/bin/echo -n " & theHTML & " | textutil -format html -inputencoding UTF-8 -convert rtf -stdin -stdout | pbcopy -Prefer rtf"
+		
+		set theRtfData to «class RTF » of (the clipboard as record)
+		set theMarkdownText to markdownLink(theTitle, theURL)
+		set the clipboard to {Unicode text:theMarkdownText, «class RTF »:theRtfData}
+	end if
+end setClipboardToHyperlink
+
+on parseHyperlink(theLink)
+	# XXX no error checking; theLink must be "[Some Title](some-url)"
+	set theDelimiters to AppleScript's text item delimiters
+	set AppleScript's text item delimiters to "]("
+	set theTitle to text 2 thru -1 of first text item of theLink
+	set theURL to text 1 thru -2 of the second text item of theLink
+	set AppleScript's text item delimiters to theDelimiters
+	return {theTitle:theTitle, theURL:theURL}
+end parseHyperlink
