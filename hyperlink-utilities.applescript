@@ -43,11 +43,22 @@ end getMailHyperlink
 
 on openOmnifocusQuickEntry(theLink)
 	tell application "OmniFocus" to tell quick entry
-		set theName to theTitle of theLink
-		set theTask to make new inbox task with properties {name:theName, note:theName}
+		set theNote to theTitle of theLink
+		try
+			set theName to theSelection of theLink
+		on error
+			set theName to the missing value
+		end try
+		if theName is the missing value then set theName to theNote
+		
+		set theTask to make new inbox task with properties {name:theName, note:theNote}
 		tell the note of theTask
-			set the value of attribute "link" of the style of paragraph 1 to theURL of theLink
+			set the value of the first paragraph's style's attribute "link" to theURL of theLink
 		end tell
+		
+		if theName is not equal to theNote then
+			set note expanded of the first tree to true
+		end if
 		open
 	end tell
 end openOmnifocusQuickEntry
