@@ -27,6 +27,24 @@ on parseHyperlink(theLink)
 	return {theTitle:theTitle, theURL:theURL}
 end parseHyperlink
 
+on getDEVONthinkHyperlink()
+	tell application "DEVONthink 3"
+		set theTitle to the content record's name
+		# Don't open links in new window, but reveal within database
+		set theURL to the content record's reference URL & "?reveal=1"
+		
+		# if no text is selected this will undefine "theSelection"
+		set theSelection to the front window's selected text
+		try
+			theSelection
+		on error
+			set theSelection to the missing value
+		end try
+		
+		return {theTitle:theTitle, theURL:theURL, theSelection:theSelection}
+	end tell
+end getDEVONthinkHyperlink
+
 on getMailHyperlink()
 	tell application "Mail" to tell item 1 of (get selection)
 		set theSubject to do shell script "/usr/bin/perl -MCGI -e 'print CGI::escapeHTML(shift)' " & quoted form of the (subject as string)
