@@ -81,23 +81,6 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "b",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_option",
-                                            "right_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "/usr/local/bin/open-web-app {{BLUEJEANS_URL}}"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
                                     "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
@@ -223,23 +206,6 @@
                                 "to": [
                                     {
                                         "shell_command": "/usr/local/bin/open-web-app https://mail.google.com"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "g",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_option",
-                                            "right_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "/usr/local/bin/open-web-app {{GOTOMEETING_URL}} 'Google Chrome'"
                                     }
                                 ],
                                 "type": "basic"
@@ -468,7 +434,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app {{PIVOTALTRACKER_URL}}"
+                                        "shell_command": "open -a 'Photos.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -583,7 +549,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app https://trello.com"
+                                        "shell_command": "open -a 'Microsoft Teams.app'"
                                     }
                                 ],
                                 "type": "basic"

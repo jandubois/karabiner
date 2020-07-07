@@ -36,7 +36,6 @@ launcher("a", "App Store.app")
 launcher("a", "Contacts.app") # addressbook
 
 launcher("b", "Safari.app") # browser
-launcher("b", "/usr/local/bin/open-web-app {{BLUEJEANS_URL}}")
 
 launcher("c", "Google Chrome.app")
 launcher("c", "Calendar.app")
@@ -50,7 +49,6 @@ launcher("f", "Finder.app")
 launcher("f", "/usr/local/bin/open-web-app https://feedly.com")
 
 launcher("g", "/usr/local/bin/open-web-app https://mail.google.com")
-launcher("g", "/usr/local/bin/open-web-app {{GOTOMEETING_URL}} 'Google Chrome'")
 
 launcher("h", "HoudahSpot.app")
 launcher("h", "open /Library/PreferencePanes/Hazel.prefPane")
@@ -73,7 +71,7 @@ launcher("o", "OmniFocus.app")
 launcher("o", "Day One.app")
 
 launcher("p", "System Preferences.app")
-launcher("p", "/usr/local/bin/open-web-app {{PIVOTALTRACKER_URL}}")
+launcher("p", "Photos.app")
 
 launcher("q", "Quiver.app")
 
@@ -84,7 +82,7 @@ launcher("s", "Script Debugger.app")
 launcher("s", "/usr/local/bin/open-web-app {{SLACK_URL}}")
 
 launcher("t", "iTerm.app") # terminal
-launcher("t", "/usr/local/bin/open-web-app https://trello.com")
+launcher("t", "Microsoft Teams.app")
 
 launcher("u", "Music.app")
 
