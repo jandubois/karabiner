@@ -238,7 +238,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open /Library/PreferencePanes/Hazel.prefPane"
+                                        "shell_command": "open -a 'Hazel.app'"
                                     }
                                 ],
                                 "type": "basic"

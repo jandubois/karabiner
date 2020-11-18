@@ -51,7 +51,7 @@ launcher("f", "/usr/local/bin/open-web-app https://feedly.com")
 launcher("g", "/usr/local/bin/open-web-app https://mail.google.com")
 
 launcher("h", "HoudahSpot.app")
-launcher("h", "open /Library/PreferencePanes/Hazel.prefPane")
+launcher("h", "Hazel.app")
 
 launcher("i", "iThoughtsX.app")
 
