@@ -48,6 +48,7 @@ launcher("e", "/Applications/Emacs.app")
 launcher("f", "Finder.app")
 launcher("f", "/usr/local/bin/open-web-app https://feedly.com")
 
+launcher("g", "GoLand.app")
 launcher("g", "/usr/local/bin/open-web-app https://mail.google.com")
 
 launcher("h", "HoudahSpot.app")
