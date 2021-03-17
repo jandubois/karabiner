@@ -533,7 +533,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app {{SLACK_URL}}"
+                                        "shell_command": "open -a 'Slack.app'"
                                     }
                                 ],
                                 "type": "basic"

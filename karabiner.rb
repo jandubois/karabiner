@@ -80,7 +80,7 @@ launcher("r", "OmniGraffle.app")
 launcher("r", "/usr/local/bin/open-web-app {{ROCKETCHAT_URL}}")
 
 launcher("s", "Script Debugger.app")
-launcher("s", "/usr/local/bin/open-web-app {{SLACK_URL}}")
+launcher("s", "Slack.app")
 
 launcher("t", "iTerm.app") # terminal
 launcher("t", "Microsoft Teams.app")
