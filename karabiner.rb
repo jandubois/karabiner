@@ -30,6 +30,13 @@ def launcher(key_code, shell_command)
   @launchers << { from: from, to: to, type: "basic" }
 end
 
+if `sw_vers -productVersion`.split('.')[0].to_i < 13
+  preferences = "Preferences"
+else
+  # "System Preferences" become "System Settings" in macOS Ventura
+  preferences = "Settings"
+end
+
 launcher("1", "1Password 7.app")
 
 launcher("a", "App Store.app")
@@ -71,7 +78,7 @@ launcher("n", "Notes.app")
 launcher("o", "OmniFocus.app")
 launcher("o", "Day One.app")
 
-launcher("p", "System Preferences.app")
+launcher("p", "System #{preferences}.app")
 launcher("p", "Photos.app")
 
 launcher("q", "Quiver.app")
