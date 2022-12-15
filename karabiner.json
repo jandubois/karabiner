@@ -41,7 +41,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'App Store.app'"
+                                        "shell_command": "open -a 'Agenda.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -58,7 +58,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Contacts.app'"
+                                        "shell_command": "open -a 'App Store.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -107,7 +107,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Calendar.app'"
+                                        "shell_command": "open -a 'Contacts.app'"
                                     }
                                 ],
                                 "type": "basic"

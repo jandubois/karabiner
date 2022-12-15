@@ -39,13 +39,13 @@ end
 
 launcher("1", "1Password 7.app")
 
+launcher("a", "Agenda.app")
 launcher("a", "App Store.app")
-launcher("a", "Contacts.app") # addressbook
 
 launcher("b", "Safari.app") # browser
 
 launcher("c", "Google Chrome.app")
-launcher("c", "Calendar.app")
+launcher("c", "Contacts.app")
 
 launcher("d", "DEVONthink 3.app")
 launcher("d", "Dash.app")
