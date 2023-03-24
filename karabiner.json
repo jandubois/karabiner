@@ -500,7 +500,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app {{ROCKETCHAT_URL}}"
+                                        "shell_command": "open -a 'Rancher Desktop.app'"
                                     }
                                 ],
                                 "type": "basic"

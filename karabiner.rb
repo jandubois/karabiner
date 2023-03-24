@@ -84,7 +84,7 @@ launcher("p", "Photos.app")
 launcher("q", "Quiver.app")
 
 launcher("r", "OmniGraffle.app")
-launcher("r", "/usr/local/bin/open-web-app {{ROCKETCHAT_URL}}")
+launcher("r", "Rancher Desktop.app")
 
 launcher("s", "Script Debugger.app")
 launcher("s", "Slack.app")
