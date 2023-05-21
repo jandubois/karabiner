@@ -18,7 +18,7 @@ karabiner.json: karabiner.rb *.json.erb
 	ruby karabiner.rb > karabiner.json
 
 open-web-app-install:
-	cp open-web-app.applescript /usr/local/bin/open-web-app
+	cp open-web-app.applescript ${HOME}/Dropbox/bin/open-web-app
 
 BROWSER_UTILS=${HOME}/Library/Script\ Libraries/Browser\ Utilities.scpt
 HYPERLINK_UTILS=${HOME}/Library/Script\ Libraries/Hyperlink\ Utilities.scpt

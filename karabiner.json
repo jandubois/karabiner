@@ -189,7 +189,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app https://feedly.com"
+                                        "shell_command": "$HOME/Dropbox/bin/open-web-app https://feedly.com"
                                     }
                                 ],
                                 "type": "basic"
@@ -222,7 +222,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app https://mail.google.com"
+                                        "shell_command": "$HOME/Dropbox/bin/open-web-app https://mail.google.com"
                                     }
                                 ],
                                 "type": "basic"
@@ -287,7 +287,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app {{JENKINS_URL}}"
+                                        "shell_command": "$HOME/Dropbox/bin/open-web-app {{JENKINS_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -304,7 +304,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app {{JIRA_URL}}"
+                                        "shell_command": "$HOME/Dropbox/bin/open-web-app {{JIRA_URL}}"
                                     }
                                 ],
                                 "type": "basic"
@@ -631,7 +631,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app https://www.netflix.com/browse"
+                                        "shell_command": "$HOME/Dropbox/bin/open-web-app https://www.netflix.com/browse"
                                     }
                                 ],
                                 "type": "basic"
@@ -648,7 +648,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app https://app.plex.tv/desktop"
+                                        "shell_command": "$HOME/Dropbox/bin/open-web-app https://app.plex.tv/desktop"
                                     }
                                 ],
                                 "type": "basic"
@@ -681,7 +681,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/usr/local/bin/open-web-app https://www.youtube.com"
+                                        "shell_command": "$HOME/Dropbox/bin/open-web-app https://www.youtube.com"
                                     }
                                 ],
                                 "type": "basic"
