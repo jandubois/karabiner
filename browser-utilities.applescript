@@ -41,6 +41,11 @@ on setDefaultBrowser()
 				end try
 			end repeat
 			
+			# Fallback because on Ventura I don't seem to have any entries for https in the launchd config
+			if theBrowser is the missing value then
+				set theBrowser to "com.apple.safari"
+			end if
+
 			# If default browser is Choosy, use the first browser in Choosy config
 			if theBrowser is "com.choosyosx.choosy" then
 				set theChoosyPlistFile to thePreferencesFolder & "/com.choosyosx.Choosy.plist"
