@@ -5,8 +5,15 @@ on markdownLink(theLink)
 end markdownLink
 
 on setClipboardToHyperlink(theLink)
+	# Shorten the title
+	set theSuffix to " · rancher-sandbox/rancher-desktop"
+	if theTitle of theLink ends with theSuffix then
+		set theSuffixLength to the length of theSuffix
+		set theTitle of theLink to text 1 thru -(theSuffixLength + 1) of theTitle of theLink
+	end if
+	
 	if theURL of theLink is "" then
-		set the clipboard to theTitle
+		set the clipboard to theTitle of theLink
 	else
 		set theHTML to quoted form of ("<font face=\"Helvetica Neue\"><a href=\"" & theURL of theLink & "\">" & theTitle of theLink & "</a></font>")
 		do shell script "/bin/echo -n " & theHTML & " | textutil -format html -inputencoding UTF-8 -convert rtf -stdin -stdout | pbcopy -Prefer rtf"
