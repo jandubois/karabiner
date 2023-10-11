@@ -92,7 +92,7 @@ launcher("s", "Script Debugger.app")
 launcher("s", "Slack.app")
 
 launcher("t", "iTerm.app") # terminal
-launcher("t", "Microsoft Teams.app")
+launcher("t", "Microsoft Teams classic.app")
 
 launcher("u", "Music.app")
 
