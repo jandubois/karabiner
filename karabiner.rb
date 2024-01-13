@@ -39,7 +39,7 @@ end
 
 open_web_app = "$HOME/Dropbox/bin/open-web-app"
 
-launcher("1", "1Password 7.app")
+launcher("1", "1Password.app")
 
 launcher("a", "Agenda.app")
 launcher("a", "App Store.app")
