@@ -96,7 +96,7 @@ launcher("t", "Microsoft Teams classic.app")
 
 launcher("u", "Music.app")
 
-launcher("v", "VirtualBox.app")
+launcher("v", "Visual Studio Code.app")
 launcher("v", "VMware Fusion.app")
 
 launcher("x", "#{open_web_app} https://www.netflix.com/browse")
