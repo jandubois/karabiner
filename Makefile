@@ -41,10 +41,10 @@ browser-utils-install-hardcoded: open-web-app-install
 
 browser-utils-diff:
 	# The decompiled script is missing the hashbang line, but appends an additional newline
-	colordiff -u <(osadecompile ${BROWSER_UTILS}) \
-             <(tail -n +2 browser-utilities.applescript; echo)
+	colordiff -u <(osadecompile ${BROWSER_UTILS} | sed 's/[[:space:]]*$$//') \
+             <(tail -n +2 browser-utilities.applescript | sed 's/[[:space:]]*$$//'; echo)
 
 hyperlink-utils-diff:
 	# The decompiled script is missing the hashbang line, but appends an additional newline
-	colordiff -u <(osadecompile ${HYPERLINK_UTILS}) \
-             <(tail -n +2 hyperlink-utilities.applescript; echo)
+	colordiff -u <(osadecompile ${HYPERLINK_UTILS} | sed 's/[[:space:]]*$$//') \
+             <(tail -n +2 hyperlink-utilities.applescript | sed 's/[[:space:]]*$$//'; echo)
