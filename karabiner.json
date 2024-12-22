@@ -32,6 +32,23 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "1",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option",
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'ChatGPT.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "a",
                                     "modifiers": {
                                         "mandatory": [
@@ -157,6 +174,23 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a '/Applications/Emacs.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option",
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Microsoft Edge.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -434,7 +468,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'System Preferences.app'"
+                                        "shell_command": "open -a 'System Settings.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -556,23 +590,6 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "t",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_option",
-                                            "right_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Microsoft Teams classic.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
                                     "key_code": "u",
                                     "modifiers": {
                                         "mandatory": [
@@ -616,6 +633,22 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a 'VMware Fusion.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "w",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Windows App.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -714,7 +747,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open vnc://zulu"
+                                        "shell_command": "open vnc://zark"
                                     }
                                 ],
                                 "type": "basic"

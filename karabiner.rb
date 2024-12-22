@@ -40,6 +40,7 @@ end
 open_web_app = "$HOME/Dropbox/bin/open-web-app"
 
 launcher("1", "1Password.app")
+launcher("1", "ChatGPT.app")
 
 launcher("a", "Agenda.app")
 launcher("a", "App Store.app")
@@ -53,6 +54,7 @@ launcher("d", "DEVONthink 3.app")
 launcher("d", "Dash.app")
 
 launcher("e", "/Applications/Emacs.app")
+launcher("e", "Microsoft Edge.app")
 
 launcher("f", "Finder.app")
 launcher("f", "#{open_web_app} https://feedly.com")
@@ -92,12 +94,13 @@ launcher("s", "Script Debugger.app")
 launcher("s", "Slack.app")
 
 launcher("t", "iTerm.app") # terminal
-launcher("t", "Microsoft Teams classic.app")
 
 launcher("u", "Music.app")
 
 launcher("v", "Visual Studio Code.app")
 launcher("v", "VMware Fusion.app")
+
+launcher("w", "Windows App.app")
 
 launcher("x", "#{open_web_app} https://www.netflix.com/browse")
 launcher("x", "#{open_web_app} https://app.plex.tv/desktop")
@@ -106,7 +109,7 @@ launcher("y", "Yep.app")
 launcher("y", "#{open_web_app} https://www.youtube.com")
 
 launcher("z", "open vnc://zombo")
-launcher("z", "open vnc://zulu")
+launcher("z", "open vnc://zark")
 
 def mapping(from, to)
   { from: { key_code: from }, to: { key_code: to } }
