@@ -101,6 +101,7 @@ launcher("v", "Visual Studio Code.app")
 launcher("v", "VMware Fusion.app")
 
 launcher("w", "Windows App.app")
+launcher("w", "MacWhisper.app")
 
 launcher("x", "#{open_web_app} https://www.netflix.com/browse")
 launcher("x", "#{open_web_app} https://app.plex.tv/desktop")
