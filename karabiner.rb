@@ -86,7 +86,7 @@ launcher("p", "Photos.app")
 launcher("q", "Quiver.app")
 
 launcher("r", "OmniGraffle.app")
-launcher("r", "Rancher Desktop.app")
+launcher("r", "/Applications/Rancher Desktop.app")
 
 launcher("s", "Script Debugger.app")
 launcher("s", "Slack.app")
