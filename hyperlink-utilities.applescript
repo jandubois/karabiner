@@ -4,7 +4,17 @@ on markdownLink(theLink)
 	return "[" & theTitle of theLink & "](" & theURL of theLink & ")"
 end markdownLink
 
+on removeBackticks(theString)
+	set AppleScript's text item delimiters to "`"
+	set textItems to text items of theString
+	set AppleScript's text item delimiters to ""
+	return textItems as string
+end removeBackticks
+
 on setClipboardToHyperlink(theLink)
+	# Remove all backticks from the title; it confuses Agenda and generally looks weird anyways
+	set theTitle of theLink to removeBackticks(theTitle of theLink)
+	
 	# Shorten the title
 	set theSuffix to " · rancher-sandbox/rancher-desktop"
 	if theTitle of theLink ends with theSuffix then
