@@ -140,7 +140,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'DEVONthink 3.app'"
+                                        "shell_command": "open -a 'DEVONthink.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -842,7 +842,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -867,7 +867,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -892,7 +892,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -917,7 +917,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -942,7 +942,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -967,7 +967,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -992,7 +992,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1017,7 +1017,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1042,7 +1042,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1067,7 +1067,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1092,7 +1092,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1117,7 +1117,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1142,7 +1142,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1167,7 +1167,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1192,7 +1192,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1217,7 +1217,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1242,7 +1242,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1267,7 +1267,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1292,7 +1292,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1317,7 +1317,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1342,7 +1342,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1367,7 +1367,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1392,7 +1392,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1417,7 +1417,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1442,7 +1442,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1467,7 +1467,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1492,7 +1492,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1517,7 +1517,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -1542,7 +1542,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com.omnigroup.OmniFocus3"
+                                            "^com.omnigroup.OmniFocus4"
                                         ],
                                         "type": "frontmost_application_if"
                                     }

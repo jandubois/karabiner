@@ -50,7 +50,7 @@ launcher("b", "Safari.app") # browser
 launcher("c", "Google Chrome.app")
 launcher("c", "Contacts.app")
 
-launcher("d", "DEVONthink 3.app")
+launcher("d", "DEVONthink.app")
 launcher("d", "Dash.app")
 
 launcher("e", "/Applications/Emacs.app")

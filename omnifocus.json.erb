@@ -2,7 +2,7 @@
 @omnifocus = []
 
 # The bundle id of the app store version has a ".MacAppStore" suffix
-conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus3" ], type: "frontmost_application_if" } ]
+conditions = [ { bundle_identifiers: [ "^com.omnigroup.OmniFocus4" ], type: "frontmost_application_if" } ]
 
 # Set Defer/Due dates: Mon..Sun, Today, Tomorrow, Clear, Clear&Flag, On Hold, On Radar
 [*"1".."7", "y", "t", "c", "l", "h", "r"].each do |weekday|
