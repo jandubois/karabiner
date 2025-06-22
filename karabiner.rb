@@ -42,6 +42,9 @@ open_web_app = "$HOME/Dropbox/bin/open-web-app"
 launcher("1", "1Password.app")
 launcher("1", "ChatGPT.app")
 
+launcher("2", "/System/Library/CoreServices/Applications/Keychain Access.app")
+launcher("2", "Copilot.app")
+
 launcher("a", "Agenda.app")
 launcher("a", "App Store.app")
 
