@@ -45,6 +45,9 @@ launcher("1", "ChatGPT.app")
 launcher("2", "/System/Library/CoreServices/Applications/Keychain Access.app")
 launcher("2", "Copilot.app")
 
+launcher("3", "open vnc://zilicon")
+launcher("3", "Claude.app")
+
 launcher("a", "Agenda.app")
 launcher("a", "App Store.app")
 
@@ -99,6 +102,7 @@ launcher("s", "Slack.app")
 launcher("t", "iTerm.app") # terminal
 
 launcher("u", "Music.app")
+launcher("u", "Soulver 3.app")
 
 launcher("v", "Visual Studio Code.app")
 launcher("v", "VMware Fusion.app")
