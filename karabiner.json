@@ -42,7 +42,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'ChatGPT.app'"
+                                        "shell_command": "open -a 'Day One.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -75,7 +75,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Copilot.app'"
+                                        "shell_command": "open -a 'ChatGPT.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -109,6 +109,39 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a 'Claude.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "4",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Copilot.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "4",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option",
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Copilot.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -518,7 +551,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Day One.app'"
+                                        "shell_command": "open -a 'Orion.app'"
                                     }
                                 ],
                                 "type": "basic"

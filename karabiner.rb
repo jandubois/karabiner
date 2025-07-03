@@ -40,13 +40,16 @@ end
 open_web_app = "$HOME/Dropbox/bin/open-web-app"
 
 launcher("1", "1Password.app")
-launcher("1", "ChatGPT.app")
+launcher("1", "Day One.app")
 
 launcher("2", "/System/Library/CoreServices/Applications/Keychain Access.app")
-launcher("2", "Copilot.app")
+launcher("2", "ChatGPT.app")
 
 launcher("3", "open vnc://zilicon")
 launcher("3", "Claude.app")
+
+launcher("4", "Copilot.app")
+launcher("4", "Copilot.app")
 
 launcher("a", "Agenda.app")
 launcher("a", "App Store.app")
@@ -86,7 +89,7 @@ launcher("m", "Messages.app")
 launcher("n", "Notes.app")
 
 launcher("o", "OmniFocus.app")
-launcher("o", "Day One.app")
+launcher("o", "Orion.app")
 
 launcher("p", "System #{preferences}.app")
 launcher("p", "Photos.app")
